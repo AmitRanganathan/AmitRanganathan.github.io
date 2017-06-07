@@ -7,20 +7,21 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<link rel="stylesheet" type="text/css" href="AmitRanganathan.github.io/css/main.css"></link>
+		<link rel="stylesheet" type="text/css" href="/Users/amitranganathan/Amit/Website/Version_0.3/CSS/main1.css"></link>
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
 
 	</head>
 
 
 	<body>
 
-
 		<!-- All for header -->
 
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -37,10 +38,10 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="navbar-collapse">
 		      <ul class="nav navbar-nav">
-		      	<li><a href ="#"> Home </a></li>		<!-- Home tab -->
-		      	<li><a href ="#About me"> About Me </a></li>	<!-- About me tab -->
-		      	<li><a href ="#Projects"> Projects </a></li>	<!-- Projects tab -->
+		      	<li><a href ="#top"> Home </a></li>		<!-- Home tab -->
+		      	<li><a href ="#Aboutme"> About Me </a></li>	<!-- About me tab -->
 		      	<li><a href ="#Concerts"> My Concerts </a></li>		<!-- Contact tab -->
+		      	<li><a href ="#Projects"> Projects </a></li>	<!-- Projects tab -->
 		      	<li><a href ="#"> Resume </a></li>		<!-- Resume tab -->
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
@@ -55,6 +56,7 @@
 		<div class ="jumbotron">
 			<div class = "container">
 				<h1> Amit's Website </h1>
+				<button type="button" onclick="aud_play_pause()">Play/Pause</button>
 			</div>
 		</div>
 
@@ -67,19 +69,18 @@
 		<div class = "container">
 			<section>
 				<!-- header -->
-				<div class = "page-header" id = "About me"> 
+				<div class = "page-header" id = "Aboutme"> 
 					<h1 class = "aboutme"> About Me </h1>
-					<h2 style="color:white;"align="center"> Who Am I? </h2>
 				</div> <!-- end of header -->
 
 				<!-- This code contains the about me pagaraph and my picture -->
 				<div class = "row">
 				<div class = "col-lg-4">
-						<img src="AmitRanganathan.github.io/Amit.jpg" id ="Amit" alt="Me!" style="width:350px;height:400px;">
+						<img src="/Users/amitranganathan/Amit/Website/Version_0.3/Pictures/Amit.jpg" id ="Amit" alt="Me!" style="width:350px;height:400px;">
 					</div>
 					<div class = "col-lg-8">
 						<blockquote id = aboutmetext>
-							<p>My name is Amit Ranganathan and I am currently an incoming junior at San Jose State University in the Bay Area.  I am a computer science major and absolutely love what I do.  I realized I wanted to pursue computer science in the summer before my junior year of high school when I took a C++ class.  I fell in love with the logic behind programming and knew then itself that CS is what I wanted to pursue.</p>
+							<p>My name is Amit Ranganathan and I am currently an incoming junior at San Jose State University in the Bay Area.  I am a computer science major and absolutely love what I do.  I was first introduced to the world of computer science when I took a C++ class at De Anza community college.  It was interesting, but it didn't really grab my attention.  However, after I took AP Computer Science in my senior year of high school, I fell in love with the logic behind programming.  I was never really good at biology or chemistry or any other science for that matter, but I was great at computer science.  Then when I entered college, things just got better and better as I was learning a lot of knew information and I was excelling in all my classes.  I knew I had made the right decision in pursuing computer science and cannot wait to see what the future has in store for me.  </p>
 						</blockquote>
 					</div>
 
@@ -89,21 +90,27 @@
 
 				<h1 style="color:white;"> Passions </h1>
 				<div class = "row">
-					<div class = "col-lg-4">
+					<div class = "col-lg-6">
 						<blockquote>
 							<h3>Mrudangam</h3>
 							<p style="color:white;"> The mrudangam is the South Indian classical drum used in South Indian classical concerts.  I have had the privilege of learning this art form for the past 11 years and have performed for over 250 concerts around the world.  I would not be Amit Ranganathan without the mrudangam as it is a huge part of who I am. </p>
 						</blockquote>
 					</div>
 
-					<div class = "col-lg-4">
+					<div class ="col-lg-6">
+						<iframe width="560" height="315"  src="https://www.youtube.com/embed/zSkeKwJ51FQ" frameborder="0" allowfullscreen id ="thani"></iframe>
+					</div>
+				</div>
+				
+				<div class = "row">
+					<div class ="col-lg-6">
 						<blockquote>
 							<h3>Basketball</h3>
-							<p style="color:white;">I have been a huge basketball fan ever since I saw Kobe Bryant back in 2007.  Ever since then, I have been a huge Lakers fan and bleed purple and gold!  I am always down to shoot some hoops on the court.  #Ballislife </p>
+							<p style="color:white;">Basketball has been an integral part of my life ever since I first saw Kobe Bryant play for the L.A. Lakers back in 2007.  I have been a huge Lakers fan ever since and have even gone to two games!  Although I have never played on my high school team or any team for that matter, I am always down to shoot some hoops on the court.  #Ballislife </p>
 						</blockquote>
 					</div>
 
-					<div class = "col-lg-4">
+					<div class = "col-lg-6">
 						<blockquote>
 							<h3>Video Games</h3>
 							<p style="color:white;"> Video games have always been a huge part of me, ever since I first played Super Mario kart racing on the SNES.  I have come a long way from playing Mario to Zelda to Halo and now to League of Legends.  Although I don't have the time to game as much as I used to, I still find the time to relax and get a few games of league in!  #SeeyouontheRift </p>
@@ -115,44 +122,6 @@
 		</div>
 
 		<!-- End of about me and passions section -->
-
-		<!-- Projects section -->
-
-		<div class = "container">
-			<section>
-				<!-- header -->
-				<div class = "page-header" id = "Projects"> 
-					<h1 class = "project"> Projects </h1>
-				</div> <!-- end of header -->
-				
-				<div>
-					<blockquote>
-						<h3>Whiteboard GUI - JAVA</h3>
-						<p style="color:white;">Created a whiteboard user interface using the Java swing interface, along with Java AWT.  Features include being able to draw certain shapes, resizing them, changing their colors, and other various features.  Another feature is save/open, where I use serialization to write out an XML file of the current whiteboard instance, which can then be opened to display that instance.  Finally, I used networking to create a client and server connection. </p>
-						
-						<img src="AmitRanganathan.github.io/Whiteboard3.jpg" id = alt="Me!" hspace="10" style="width:525px;height:400px;">
-
-						<img src="AmitRanganathan.github.io/Whiteboard2.jpg" id = alt="Me!" style="width:525px;height:400px;">
-					</blockquote>
-				
-					<blockquote>
-						<h3>Arithmetic Calculator - MIPS 32 bit assembly </h3>
-						<p style="color:white;">Designed and developed an arithmetic calculator, which included addition, subtraction, multiplication, and division operations, using assembly level bitwise logical operations. </p>
-					</blockquote>
-					<!--
-					<blockquote>
-						<h3>Video Games</h3>
-						<p style="color:white;"> Video games have always been a huge part of me, ever since I first played Super Mario kart racing on the SNES.  I have come a long way from playing Mario to Zelda to Halo and now to League of Legends.  Although I don't have the time to game as much as I used to, I still find the time to relax and get a few games of league in!  #SeeyouontheRift </p>
-					</blockquote>
-					-->
-			
-				</div>
-				<a href='#top'>Back to Top</a>
-			</section>
-		</div>
-
-		<!-- End of projects section -->
-
 
 
 		<div class = "container">
@@ -214,33 +183,92 @@
 						<td> N/A </td>
 					</tr>
 				</table>
-				<a href='#top'>Back to Top</a>
 			</section>
 		</div>
 
 
+		<div class ="container">
+			<section>
+				<div class ="page-header" id = "Pastconcerts">
+
+					<h1 class = "snippets" align = "center"> Past Concert Snippets </h1>
+					<h3 align="center"> For my videos, visit the "Fireonsun" youtube channel!</h3>
+
+				</div>
+					<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/W-__QnfFynA" frameborder="0" allowfullscreen></iframe>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/b4mCcKF1G7k" frameborder="0" allowfullscreen></iframe>
+
+					<a href='#top'> Back to Top </a>
+					<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+				</div>
+			<section>
 		<div>
 
+		<!-- Projects section -->
+
+		<div class = "container">
+			<section>
+				<!-- header -->
+				<div class = "page-header" id = "Projects"> 
+					<h1 class = "project"> Projects </h1>
+				</div> <!-- end of header -->
+				
+				<div>
+					<blockquote>
+						<h3>Whiteboard GUI - JAVA</h3>
+						<p style="color:white;">Created a whiteboard user interface using the Java swing framework, along with Java AWT.  Features include being able to draw certain shapes, resizing them, changing their colors, and other various features.  Another feature is save/open, where I use serialization to write out an XML file of the current whiteboard instance, which can then be opened to display that instance.  Finally, I used networking to create a client and server connection. </p>
+						
+						<img src="/Users/amitranganathan/Amit/Website/Version_0.3/Pictures/Whiteboard3.jpg" id = alt="Me!" hspace="20" style="width:525px; height:400px;">
+
+						<img src="/Users/amitranganathan/Amit/Website/Version_0.3/Pictures/Whiteboard2.jpg" id = alt="Me!" style="width:525px;height:400px;">
+					</blockquote>
+				
+					<blockquote>
+						<h3>Arithmetic Calculator - MIPS 32 bit assembly </h3>
+						<p style="color:white;">Designed and developed an arithmetic calculator, which included addition, subtraction, multiplication, and division operations, using assembly level bitwise logical operations. </p>
+
+						<img src="/Users/amitranganathan/Amit/Website/Version_0.3/Pictures/paper.png" style="height:30px; margin-right:10px; float:left"/>
+
+						<p style="font-size:14px; line-height:20px; color:#085670;">
+							<a style=font-size:15px; color:#084F66; text-decoration:none; padding-top:-25px" href="/Users/amitranganathan/Amit/Website/Version_0.3/PDF/Writeup.pdf " target="_blank"><strong>Arithmetic Calculator Write-up</strong></a>
+						</p>
+					</blockquote>
+					<!--
+					<blockquote>
+						<h3>Video Games</h3>
+						<p style="color:white;"> Video games have always been a huge part of me, ever since I first played Super Mario kart racing on the SNES.  I have come a long way from playing Mario to Zelda to Halo and now to League of Legends.  Although I don't have the time to game as much as I used to, I still find the time to relax and get a few games of league in!  #SeeyouontheRift </p>
+					</blockquote>
+					-->
+			
+				</div>
+				<a href='#top'>Back to Top</a>
+			</section>
+		</div>
+		<!-- End of projects section -->
 
 
+		<!-- For background music -->
+		<audio id = "myAudio"
+			<embed src = "/Users/amitranganathan/Amit/Website/Version_0.3/Music/Shankaran_MChapu_Thani.mp3" autostart="true" look="false" width="0" height="0">
+		</audio>
 
+<!-- 					SCRIPTS 					-->
 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+	<!-- My own java script file -->
+	<script src ="/Users/amitranganathan/Amit/Website/Version_0.3/JS/Scroll.js"></script>
 
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- 				END OF SCRIPTS 						-->
+	
 
-		<script>
-		
-		</script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<script>
-	</body>
-
-
+	</body> 
 </html>
 
 
