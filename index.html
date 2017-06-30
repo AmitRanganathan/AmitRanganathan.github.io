@@ -2,13 +2,12 @@
 
 <html>	
 	<head>
-		<!-- -->
 		<a name="top"></a>
 		<title> Webpage </title>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<link rel="stylesheet" type="text/css" href="https://AmitRanganathan.github.io/CSS/main1.css"></link>
+		<link rel="stylesheet" type="text/css" href="/Users/amitranganathan/Amit/Website/Version_0.4/CSS/main1.css"></link>
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -18,8 +17,7 @@
 	</head>
 
 
-	<body>
-
+	<body class = "everything">
 		<!-- All for header -->
 
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -43,7 +41,7 @@
 		      	<li><a href ="#Aboutme"> About Me </a></li>	<!-- About me tab -->
 		      	<li><a href ="#Concerts"> My Concerts </a></li>		<!-- Contact tab -->
 		      	<li><a href ="#Projects"> Projects </a></li>	<!-- Projects tab -->
-		      	<li><a href ="#"> Resume </a></li>		<!-- Resume tab -->
+		      	<li><a href ="#Resume"> Resume </a></li>		<!-- Resume tab -->
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -51,17 +49,19 @@
 
 		<!-- end of header code -->
 
+		<div class="banner">
+			<img class="banner-image" src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Mrudangam.jpg">
+		</div>
 
-
-		<!-- Jumbotron code -->
+		<!-- Jumbotron code 
 		<div class ="jumbotron">
 			<div class = "container">
 				<h1> Amit's Website </h1>
-				<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+				
 			</div>
 		</div>
 
-		<!-- End of Jumbotron code -->
+		End of Jumbotron code -->
 
 
 
@@ -70,14 +70,14 @@
 		<div class = "container">
 			<section>
 				<!-- header -->
-				<div class = "page-header" id = "Aboutme"> 
+				<div class = "page-header" style="margin-top:" id = "Aboutme"> 
 					<h1 class = "aboutme"> About Me </h1>
 				</div> <!-- end of header -->
 
 				<!-- This code contains the about me pagaraph and my picture -->
 				<div class = "row">
 				<div class = "col-lg-4">
-						<img src="https://AmitRanganathan.github.io/Pictures/Amit.jpg" id ="Amit" alt="Me!" style="width:350px;height:400px;">
+						<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Amit.jpg" id ="Amit" alt="Me!" style="width:350px;height:400px;border:8px double black;">
 					</div>
 					<div class = "col-lg-8">
 						<blockquote id = aboutmetext>
@@ -93,8 +93,8 @@
 				<div class = "row">
 					<div class = "col-lg-6">
 						<blockquote>
-							<h3>Mrudangam</h3>
-							<p style="color:white;"> The mrudangam is the South Indian classical drum used in South Indian classical concerts.  I have had the privilege of learning this art form for the past 11 years and have performed for over 250 concerts around the world.  I would not be Amit Ranganathan without the mrudangam as it is a huge part of who I am. </p>
+							<h3>Mrudangam</h3> 
+							<p style="color:white;"> The mrudangam is the South Indian classical drum used in South Indian classical concerts.  I have had the privilege of learning this art form for the past 11 years and have performed for over 250 concerts around the world.  I would not be Amit Ranganathan without the mrudangam as it is a huge part of who I am. </p>		
 						</blockquote>
 					</div>
 
@@ -118,7 +118,7 @@
 						</blockquote>
 					</div>
 				</div>
-				<a href='#top'>Back to Top</a>
+				<!--<a href='#top' style="color:white">Back to Top</a>-->
 			</section>
 		</div>
 
@@ -130,7 +130,7 @@
 				<!-- header -->
 				<div class = "page-header" id = "Concerts"> 
 					<h1 class = "concerts">Upcoming Concerts </h1>
-					<h3 align = "center"> All concerts are free, unless told otherwise! All are welcome! </h3>
+					<h3 align = "center" style="color:black"> All concerts are free, unless told otherwise! All are welcome! </h3>
 				</div> <!-- end of header -->
 
 
@@ -145,30 +145,6 @@
 					</tr>
 
 					<tr>
-						<td> Santosh Sivakumar </td>
-						<td> June 17th 2017 </td>
-						<td> TBD </td>
-						<td> Hicks Avenue, San Jose </td>
-						<td> SR Fine Arts </td>
-					</tr>
-
-					<tr>
-						<td> Arthi Nadhan & Sid Ashokkumar</td>
-						<td> June 24th 2017 </td>
-						<td> 11:25 - 12:40pm </td>
-						<td> New Jersey </td>
-						<td> Dhvani </td>
-					</tr>
-
-					<tr>
-						<td> Sutikshana Veeravalli & Madhu Vadlamani </td>
-						<td> June 25th 2017 </td>
-						<td> 11:15 - 12:30pm</td>
-						<td> New Jersey </td>
-						<td> Dhvani </td>
-					</tr>
-
-					<tr>
 						<td> Students of Indu Nagaraj </td>
 						<td> July 1st 2017 </td>
 						<td> 4:30 - 6:30pm </td>
@@ -177,11 +153,27 @@
 					</tr>
 
 					<tr>
+						<td> Kaushik Shivakumar </td>
+						<td> July 15th 2017 </td>
+						<td> 1:30 - 2:15pm </td>
+						<td> Sunnyvale </td>
+						<td> LOTUS </td>
+					</tr>
+
+					<tr>
 						<td> Dance Arangetram </td>
 						<td> July 22nd 2017 </td>
 						<td> 4 - 6pm </td>
 						<td> Portland </td>
 						<td> N/A </td>
+					</tr>
+
+					<tr>
+						<td> Pranav Kikkeri & Deekshita </td>
+						<td> August 6th 2017 </td>
+						<td> 3:00 - 6:00pm </td>
+						<td> Simi Valley </td>
+						<td> L.A. Hamsadwani </td>
 					</tr>
 				</table>
 			</section>
@@ -193,16 +185,29 @@
 				<div class ="page-header" id = "Pastconcerts">
 
 					<h1 class = "snippets" align = "center"> Past Concert Snippets </h1>
-					<h3 align="center"> For my videos, visit the "Fireonsun" youtube channel!</h3>
+					<h3 align="center" style="color:black"> For more videos, visit the "Fireonsun" YouTube channel!</h3>
 
 				</div>
-					<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/W-__QnfFynA" frameborder="0" allowfullscreen></iframe>
+
+				<div>
 
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/b4mCcKF1G7k" frameborder="0" allowfullscreen></iframe>
 
-					<a href='#top'> Back to Top </a>
-					<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/W-__QnfFynA" frameborder="0" allowfullscreen></iframe>
+
+					<div align="center">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/LHpi-S05v_s" frameborder="0" allowfullscreen ></iframe> <br>
+					</div>
+
+					<!--<a href='#top' style="color:white">Back to Top</a>-->
+					
+					<!--<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Pause.png" alt="pause button" onclick="aud_play_pause()" style="width:50px;height:50px;border:0;"> -->
+
+					<button onclick="aud_play_pause()" id="demo">Pause</button>
+
+
+
+				
 				</div>
 			<section>
 		<div>
@@ -220,20 +225,23 @@
 					<blockquote>
 						<h3>Whiteboard GUI - JAVA</h3>
 						<p style="color:white;">Created a whiteboard user interface using the Java swing framework, along with Java AWT.  Features include being able to draw certain shapes, resizing them, changing their colors, and other various features.  Another feature is save/open, where I use serialization to write out an XML file of the current whiteboard instance, which can then be opened to display that instance.  Finally, I used networking to create a client and server connection. </p>
-						
-						<img src="https://AmitRanganathan.github.io/Pictures/Whiteboard3.jpg" id = alt="Me!" style="width:525px; height:400px;">
+						<button type = "button" class = "whiteboardImages">Show Images</button>
+							<div class = "images">
+								<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Whiteboard3.jpg" id = alt="Me!" style="width:525px; height:400px;">
 
-						<img src="https://AmitRanganathan.github.io/Pictures/Whiteboard2.jpg" id = alt="Me!" style="width:525px;height:400px;">
+								<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Whiteboard2.jpg" id = alt="Me!" style="width:525px;height:400px;">
+							</div>
+
 					</blockquote>
 				
 					<blockquote>
 						<h3>Arithmetic Calculator - MIPS 32 bit assembly </h3>
 						<p style="color:white;">Designed and developed an arithmetic calculator, which included addition, subtraction, multiplication, and division operations, using assembly level bitwise logical operations. </p>
 
-						<img src="https://AmitRanganathan.github.io/Pictures/paper.png" style="height:30px; margin-right:10px; float:left"/>
+						<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/paper.png" style="height:30px; margin-right:10px; float:left"/>
 
 						<p style="font-size:14px; line-height:20px; color:#085670;">
-							<a style=font-size:15px; color:#084F66; text-decoration:none; padding-top:-25px" href="https://AmitRanganathan.github.io/PDF/Writeup.pdf " target="_blank"><strong>Arithmetic Calculator Write-up</strong></a>
+							<a style=font-size:15px; color:#084F66; text-decoration:none; padding-top:-25px" href="/Users/amitranganathan/Amit/Website/Version_0.4/PDF/Writeup.pdf " target="_blank"><strong>Arithmetic Calculator Write-up</strong></a>
 						</p>
 					</blockquote>
 					<!--
@@ -244,16 +252,193 @@
 					-->
 			
 				</div>
-				<a href='#top'>Back to Top</a>
+				<!--<a href='#top' style="color:white">Back to Top</a>-->
 			</section>
 		</div>
 		<!-- End of projects section -->
 
 
-		<!-- For background music -->
-		<audio id = "myAudio"
-			<embed src = "https://AmitRanganathan.github.io/Music/Shankaran_MChapu_Thani.mp3" autostart="true" look="false" width="0" height="0">
-		</audio>
+		<!-- Start of Resume section -->
+		<div class = "container">
+			<section>
+				<!-- header -->
+				<div class = "page-header" id = "Resume"> 
+					<h1 class = "resume"> Resume </h1>
+					<p style="font-size:14px; line-height:20px; color:#085670;">
+							<a style=font-size:15px; color:#084F66; text-decoration:none; padding-top:-25px" href="/Users/amitranganathan/Amit/Website/Version_0.4/PDF/Resume.pdf " target="_blank"><strong>PDF Version</strong></a>
+						</p>
+				</div> <!-- end of header -->
+
+
+				<!-- Start of first row -->
+				<div class = "row">
+					<div class = "col-lg-6">
+						<div class="panel panel-primary">
+						 	<div class="panel-heading" align="center">Technical Experience</div>
+						  	<div class="panel-body"> 
+							   	<ol>
+							   		<li>WAY.com - Bookkeeper & Q/A Engineering Intern</li>
+							   			<ul>
+							   				<li> Categorized transactions into their respective accounts and classes on QuickBooks and managed the company's finances on a weekly basis.</li>
+
+							   				<li>Conducted comprehensive Q/A tests of various cases and new sprints to facilitate the development of the WAY.com mobile app.  
+							   				</li>
+							   			</ul>
+
+							   		<li>Hackathons- participant</li>
+							   			<ul>
+							   				<li>Participated in Cupertino Hack Day, HS Hacks, and HS Hacks 2.</li>
+
+							   				<li>Attended workshops and acquired skills in various programming languages. 
+							   				</li>
+
+							   				<li>Developed programs and algorithms such as calculators, sorting algorithms, and GUI games.  
+							   				</li>
+							   			</ul>
+							   		
+							   	</ol>
+						  	</div>
+						
+						</div>
+					</div>
+
+					<div class = "col-lg-6">
+						<div class="panel panel-primary">
+						 	<div class="panel-heading" align="center">Leadership Experience</div>
+						  	<div class="panel-body"> 
+							   	<ol>
+							   		<li>Nadhopasana Academy of Fine Arts - Senior Student/Teacher</li>
+							   			<ul>
+							   				<li>Teach lessons in Mrudangam to students of all levels.</li>
+
+							   				<li>Have accompanied leading vocal and instrumental artists in over 200 concerts across the U.S. and India. 
+							   				</li>
+							   			</ul>
+
+							   		<li>Chinmaya Mission - Volunteer Sunday School Teacher</li>
+							   			<ul>
+							   				<li>Educated a class of 40 students on topics related to spirtuality.</li>
+
+							   				<li>Helped raise over $250,000 for the organization as the lead singer in a 10-CD project.
+							   				</li>
+							   			</ul>
+
+							   		<li>Tino Crew - Crew Leader</li>
+							   			<ul>
+							   				<li>Led and assisted groups of incoming freshmen during the school's orientation day for two years.</li>
+
+							   				<li>Led students on a campus wide tour and explained various school rules and norms.  
+							   				</li>
+							   			</ul>
+							   		
+							   	</ol>
+						  	</div>
+						
+						</div>
+					</div>
+				</div> <!-- End of first row -->
+
+
+
+				<!-- Start of second row -->
+				<div class="row">
+					<div class = "col-lg-4">
+						<div class="panel panel-info">
+						 	<div class="panel-heading" align="center">Languages</div>
+						  	<div class="panel-body">
+							   	<ul>
+							   		<li>Java</li>
+							   		<li>HTML & CSS (Self Taught)</li>
+							   		<li>Javascript (Self Taught)</li>
+							   		<li>Jquery     (Self Taught)</li>
+							   		<li>C++</li>
+
+							   	</ul>
+						  	</div>
+						
+						</div>
+					</div>
+
+					<div class = "col-lg-4" >
+						<div class="panel panel-info">
+						  <div class="panel-heading" align="center">Other Skills</div>
+						  <div class="panel-body">
+
+						   	<ul>
+						   		<li>Quickbooks</li>
+						   		<li>Microsoft Suite </li>
+						   		<li>Eclipse</li>
+						   		<li>Leadership</li>
+						   		<li>Teaching</li>
+						   	</ul>
+						  </div>
+						</div>
+					</div>
+
+					
+
+					<div class = "col-lg-4"><div class="myPanel">
+						<div class="panel panel-info">
+						  <div class="panel-heading" align="center">Honors & Awards</div>
+						  <div class="panel-body">
+						   	<ul>
+						   		<li>Honor Roll throughout High School</li>
+						   		<li>California Scholarship Federation Life-Long Member </li>
+						   		<li>National Honors Society Life-Long Member</li>
+						   		<li>Best Public Speaker in my Communication 20 class</li>
+						   	</ul>
+						  </div>
+						</div>
+					</div> 
+
+				</div> <!-- End of Second Row -->
+
+			</section>
+		</div>
+		<!-- End of resume section -->
+
+
+
+
+
+
+
+
+
+		<!-- Social media links -->
+		<div >
+	       <div class="socialMedia" align="center">
+	       		 <a href="https://www.instagram.com/amitranganathan/" target="_blank">
+  					<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/instagram.png" alt="Instagram profile" style="width:50px;height:50px;border:0;">
+				</a>
+
+				<a href="https://www.facebook.com/amit.ranganathan" target="_blank">
+  					<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Facebook.png" alt="Instagram profile" style="width:50px;height:50px;border:0;">
+				</a>
+
+				<a href="https://www.linkedin.com/in/amit-ranganathan-925297124/" target="_blank">
+  					<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/linkedin.png" alt="Instagram profile" style="width:50px;height:50px;border:0;">
+				</a>
+
+				<a href="https://twitter.com/AmitRanganathan" target="_blank">
+  					<img src="/Users/amitranganathan/Amit/Website/Version_0.4/Pictures/Twitter.png" alt="Instagram profile" style="width:50px;height:50px;border:0;">
+				</a>
+	       </div>
+	  </div>
+	  <!-- End of social media links -->
+
+
+
+
+
+
+	<a href="#top" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+  
+
+
+	<!-- For background music -->
+	<audio id = "myAudio" src = "/Users/amitranganathan/Amit/Website/Version_0.4/Music/Shankaran_MChapu_Thani.mp3" loop="true" width="0" height="0">
+	</audio>
 
 <!-- 					SCRIPTS 					-->
 
@@ -261,7 +446,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 	<!-- My own java script file -->
-	<script src ="https://AmitRanganathan.github.io/JS/Scroll.js"></script>
+	<script src ="/Users/amitranganathan/Amit/Website/Version_0.4/JS/main.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
